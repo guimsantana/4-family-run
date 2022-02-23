@@ -4,55 +4,56 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      <div className={styles.container}>
-        <Head>
-          <title>4º Corrida Família Braz e Lima</title>
-          <meta name="description" content="Página Oficial da 4º Corrida Família Braz e Lima"/>
-          <link rel="icon" href="/corredores.png"/>
-        </Head>
-        <div className={styles.box}>
-          <main className={styles.main}>
-            <span>
-              <Image src="/atleta-imagem-animada.gif" alt="Logo da corrida" width={140} height={110} />
-              <Image src="/atleta-imagem-animada.gif" alt="Logo da corrida" width={140} height={110} />
-              <Image src="/atleta-imagem-animada.gif" alt="Logo da corrida" width={140} height={110} />
-            </span>
-            <h1 className={styles.title}>
-              4º Corrida Família Braz e Lima
-            </h1>
+    <div className={styles.container}>
+      <Head>
+        <title>4º Corrida Família Braz e Lima</title>
+        <meta name="description" content="Site Oficial da Corrida Família Braz e Lima" />
+        <link rel="icon" href="/corredor-1.png" />
+      </Head>
 
-            <p className={styles.description}>
-              Nova Odessa - 10/04/2022
-            </p>
+      <main className={styles.main}>
+        <span>
+          <Image src="/corredor-1.png" alt="Logo da corrida" width={140} height={110} />
+          <Image src="/corredor-2.png" alt="Logo da corrida" width={140} height={110} />
+        </span>
+        <h1 className={styles.title}>
+          4º Corrida Família Braz e Lima
+        </h1>
 
-            <div className={styles.grid}>
-              <a href="" className={styles.card}>
-                <h2>Participantes &rarr;</h2>
-                <p>Confira todos os participantes inscritos na corrida até o momento!</p>
-              </a>
+        <p className={styles.description}>
+          Nova Odessa - 10/04/2022
+        </p>
 
-              <a href="" className={styles.card}>
-                <h2>Resultados &rarr;</h2>
-                <p>Que tal dar uma espiadinha nos resultados das corridas?</p>
-              </a>
+        <div className={styles.grid}>
+          <a href="" className={styles.card}>
+            <h2>Participantes &rarr;</h2>
+            <p>Confira todos os participantes inscritos na corrida até o momento!</p>
+          </a>
 
-              <a href="" className={styles.card}>
-                <h2>Outras Corridas &rarr;</h2>
-                <p>Ta com saudades? Bora relembrar das outras edições da corrida!</p>
-              </a>
+          <a href="" className={styles.card}>
+            <h2>Resultados &rarr;</h2>
+            <p>Que tal dar uma espiadinha nos resultados das corridas?</p>
+          </a>
 
-              <a href="" className={styles.card}>
-                <h2>Área do Admin &rarr;</h2>
-                <p>Hey, parado ai! Entrada somente de pessoal autorizado! :D</p>
-              </a>
-            </div>
-          </main>
+          <a href="" className={styles.card}>
+            <h2>Outras Corridas &rarr;</h2>
+            <p>Ta com saudades? Bora relembrar das outras edições da corrida!</p>
+          </a>
+
+          <a href="" className={styles.card}>
+            <h2>Área do Admin &rarr;</h2>
+            <p>Hey, parado ai! Entrada somente de pessoal autorizado! :D</p>
+          </a>
         </div>
-      </div>
+      </main>
+
       <footer className={styles.footer}>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          Powered By &nbsp;<h2>Guilherme Santana</h2>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered By &nbsp;<h2>Guilherme Santana </h2>
         </a>
       </footer>
     </div>
