@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -25,10 +26,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h2>Participantes &rarr;</h2>
-            <p>Confira todos os participantes inscritos na corrida até o momento!</p>
-          </a>
+          <Link href="/participantes">
+            <a className={styles.card}>
+              <h2>Participantes &rarr;</h2>
+              <p>Confira todos os participantes inscritos na corrida até o momento!</p>
+            </a>
+          </Link>
 
           <a href="" className={styles.card}>
             <h2>Resultados &rarr;</h2>
@@ -49,7 +52,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >
